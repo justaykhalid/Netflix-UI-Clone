@@ -3,7 +3,7 @@
 A pixel-perfect Netflix interface clone built with pure HTML and CSS.
 
 ## Live Demo
-[View Live](https://justaykhalid.github.io/netflix-clone/)
+[View Live](https://justaykhalid.github.io/Netflix-UI-Clone/)
 
 ## Features
 - Sidebar navigation with SVG icons
