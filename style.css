@@ -1,0 +1,257 @@
+:root {
+  /* Main Background */
+  --bg-primary: #0B0B0B;
+  --bg-secondary: #141414;
+  --bg-card: #1A1A1A;
+
+  /* Netflix Red */
+  --primary-red: #E50914;
+  --primary-red-dark: #B20710;
+  --primary-red-light: #FF1E2D;
+
+  /* Text */
+  --text-primary: #FFFFFF;
+  --text-secondary: #B3B3B3;
+  --text-muted: #808080;
+
+  /* Success Match Rating */
+  --success-green: #46D369;
+
+  /* Borders */
+  --border-dark: #2A2A2A;
+  --border-light: #404040;
+
+  /* Shadows */
+  --shadow-dark: rgba(0, 0, 0, 0.8);
+
+  /* Gradients */
+  --hero-gradient:
+    linear-gradient(
+      90deg,
+      rgba(0,0,0,0.95) 0%,
+      rgba(0,0,0,0.7) 40%,
+      rgba(0,0,0,0.2) 100%
+    );
+
+  --red-gradient:
+    linear-gradient(
+      180deg,
+      #B20710 0%,
+      #E50914 100%
+    );
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    color: var(--text-primary);
+}
+ .content{
+  height: 100vh;
+    display: grid;
+    grid-template-columns: 4% 96%;
+ }
+.img:hover{
+    border-bottom: 3px solid  invert(16%) sepia(99%) saturate(7404%) hue-rotate(357deg) brightness(96%) contrast(117%);
+  padding: 2px;
+}
+#info{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+}
+.percent{
+  color: var(--success-green);
+}
+.grey{
+  color: var(--text-muted);
+}
+.Watch{
+  font-weight: 100;
+}
+.breif{
+  width: 300px;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px 0;
+     background: var(--bg-primary);
+}
+.main{ 
+   background: var(--bg-primary);
+  overflow-y: auto;
+   height: 100vh;
+}
+.main::-webkit-scrollbar{
+  display: none;
+}
+.img {
+    height: 20px;
+    filter: invert(1) ; 
+}
+.btn{
+  background: none;
+  padding:0;
+  margin: 0 auto;
+  border: none;
+  max-height: fit-content;
+  width: 20px;
+   transition: border-bottom 2s ease 0.1s ;
+}
+.top{
+  display: grid;
+  grid-template-columns: repeat(2,50%);
+  grid-template-rows: 340px;
+  background-image: linear-gradient(90deg, rgba(0,0,0,1)0%,rgba(0,0,0,1)20%,rgba(0,0,0,.85)40%,rgba(0,0,0,.4)70%,rgba(0,0,0,.2)100%),url("movies/heist.jfif");
+  background-size:cover;
+  background-position: center;
+  
+}
+.HEIST-txt{
+  display: flex;
+  flex-direction: column;
+  gap:5px;
+  justify-content:space-around;
+  padding: 40px;
+
+}
+.movie-recomendation{
+  display: grid;
+grid-auto-flow: column;
+   grid-auto-columns: 120px;
+  grid-template-rows: 180px;
+  gap: 10px;
+  overflow: scroll;
+    overflow-x: scroll;
+    overflow-y: hidden;
+       grid-auto-flow: column;
+        margin-left: 10px;
+       
+
+}
+.movie-recomendation::-webkit-scrollbar{
+  display: none;
+}
+.content::-webkit-scrollbar{
+  display: none;
+}
+.recomend-box{
+  margin-left: 10px;
+}
+.power{
+  background-image: url(movies/images\ \(2\).jfif);
+  background-size: cover;
+
+}
+.MONEY-heist-pic{
+
+   background-image: url(movies/61boFr6SYZL.jpg);
+  background-size: cover;
+}
+.homes-pic{
+  background-image: url(movies/a8815823e44461c7e32fe668db12163c.jpg);
+  background-size: cover;
+}
+.Loev-pic{
+  
+  background-image: url(movies/download.jfif);
+  background-size: cover;
+}
+.ghol{
+ background-image: url(movies/images);
+  background-size: cover;
+}
+.oj-pic{
+ background-image: url(movies/images.jfif);
+  background-size: cover;
+}
+.six-pic{
+ background-image: url(movies/images\ \(10\).jfif);
+  background-size: cover;
+}
+
+
+.YOU{
+   background-image: url(movies/images\ \(7\).jfif);
+  background-size: cover;
+}
+.nine-pic{
+   background-image: url(movies/images\ \(15\).jfif);
+  background-size: cover;
+}
+.ten-pic{
+background-image: url(movies/images\ \(16\).jfif);
+  background-size: cover;
+
+}
+.eleven-pic{
+background-image: url(movies/images\ \(2\).jfif);
+  background-size: cover;
+
+}
+.Trending-Now{
+  margin-top: 40px;
+ 
+}
+.one{
+  background-image: url(movies/images\ \(1\).jfif);
+  background-size: cover;
+}
+.two{
+  background-image: url(movies/images\ \(6\).jfif);
+  background-size: cover;
+}
+.three{
+   background-image: url(movies/images\ \(9\).jfif);
+  background-size: cover;
+}
+.four{
+   background-image: url(movies/images\ \(8\).jfif);
+  background-size: cover;
+}
+.five{
+   background-image: url(movies/images\ \(13\).jfif);
+  background-size: cover;
+}
+.six{
+  background-image: url(movies/images\ \(14\).jfif);
+  background-size: cover;
+}
+.seven{
+  background-image: url(movies/images\ \(3\).jfif);
+  background-size: cover;
+}
+.seven{
+  background-image: url(movies/images\ \(5\).jfif);
+  background-size: cover;
+}
+.heading{
+  margin-bottom: 5px;
+}
+.btn:active{
+    border-bottom: 3px solid var(--primary-red);
+   
+}
+.Trending-Now-r{
+  margin-bottom: 40px;
+}
+.Netflix-logo{
+  height: 40px;
+  display: inline;
+}
+.logo-align{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.SERIES{
+  letter-spacing: 5px;
+}
+/* .pic{
