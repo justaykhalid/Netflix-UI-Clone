@@ -263,4 +263,44 @@ background-image: url(movies/images\ \(2\).jfif);
 .SERIES{
   letter-spacing: 5px;
 }
-/* .pic{
+@media screen and (max-width:480px) {
+   .content{
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 80% 20%;
+   grid-template-areas:
+      "main"
+      "main"
+      "menu";
+  
+ }
+ .menu{
+  grid-area: menu;
+ 
+    display: flex;
+    flex-direction: row;
+   
+ }
+ .main{
+   grid-area: main;
+ }
+ .Trending-Now-r{
+  margin-bottom: 0px;
+}
+.top{
+  display: grid;
+  grid-template-columns: repeat(2,50%);
+  grid-template-rows: 300px;
+  background-position: center;
+  
+}
+.MONEY-{
+  font-size: 15px;
+}
+Watch{
+  font-size: 5px;
+}
+.hide{
+  display: none;
+}
+}
