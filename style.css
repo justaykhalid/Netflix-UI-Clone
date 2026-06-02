@@ -45,6 +45,15 @@
     padding: 0;
     margin: 0;
 }
+h1, h2, h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 2px;
+}
+
+body, p {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 300;
+}
 body{
     height: 100vh;
     color: var(--text-primary);
