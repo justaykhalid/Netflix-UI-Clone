@@ -121,6 +121,7 @@ body{
   background-image: linear-gradient(90deg, rgba(0,0,0,1)0%,rgba(0,0,0,1)20%,rgba(0,0,0,.85)40%,rgba(0,0,0,.4)70%,rgba(0,0,0,.2)100%),url("movies/heist.jfif");
   background-size:cover;
   background-position: center;
+  padding: 0;
   
 }
 .HEIST-txt{
@@ -128,7 +129,7 @@ body{
   flex-direction: column;
   gap:5px;
   justify-content:space-around;
-  padding: 40px;
+ padding-left:10px ;
 
 }
 .movie-recomendation{
@@ -279,7 +280,13 @@ background-image: url(movies/images\ \(2\).jfif);
  
     display: flex;
     flex-direction: row;
-   
+    position: fixed;
+      z-index: 9999; 
+      width: 100%;
+    bottom: 0;      
+  left: 0;       
+
+
  }
  .main{
    grid-area: main;
